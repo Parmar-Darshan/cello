@@ -1,0 +1,24 @@
+$bgimages:
+  "hero" "hero.svg",
+  "helthcare" "helthcare-automation.jpg";
+  
+  
+  
+  
+  
+
+.bg-img {    
+    width: 100%;
+    height: 100%; 
+}
+
+@each $name, $file in $bgimages {
+  .bg-img-#{$name} {    
+    width: 100%;
+    height: 100%;
+    background-image: url("../images/bg/#{$file}");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+  }
+}

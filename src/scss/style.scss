@@ -1,0 +1,104 @@
+@import "_app";
+@import "_apps/bgimages";
+
+@import url('https://fonts.googleapis.com/css2?family=Baloo+2:wght@400..800&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Archivo+Narrow:ital,wght@0,400..700;1,400..700&display=swap');
+$font-family1: "Poppins", serif;
+$font-weight-regular: 400;
+$font-family3: "Archivo Narrow", serif;
+$font-family2: "Baloo 2", serif;
+
+
+body {
+    font-family: $font-family1;
+    font-weight: $font-weight-regular;
+    font-size: 16px;
+}
+
+.hero-bg {
+    height: 750px;
+}
+
+button {
+    font-weight: 600;
+}
+
+p {
+    font-size: 15px;
+}
+
+h1,
+h2,
+h4 {
+    font-family: $font-family2;
+}
+
+h5 {
+    font-family: $font-family3;
+    font-weight: 700;
+}
+
+.container-fluid {
+    width: 95% !important;
+}
+
+.instant {
+    text-transform: uppercase;
+    background: linear-gradient(to bottom, #FFFFFF, #D9D9D9 0%, #F5F5F5 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+
+    font: {
+        size: 150px;
+    }
+
+    ;
+}
+
+button.first-bg:hover {
+    color: white;
+}
+
+.uplift {
+    font-size: 243px;
+}
+
+.container-fluid {
+    width: 95% !important;
+}
+
+@media (min-width: 576px) and (max-width:768px) {
+    .instant {
+        font-size: 97px;
+    }
+
+    .uplift {
+        font-size: 112px;
+    }
+}
+
+@media (min-width: 375px) and (max-width: 576px) {
+    .instant {
+        font-size: 65px;
+    }
+
+    .uplift {
+        font-size: 65px;
+    }
+}
+
+@media (min-width: 768px) and (max-width:992px) {
+    .instant {
+        font-size: 159px;
+    }
+
+    .uplift {
+        font-size: 160px;
+    }
+}
+
+@media (min-width: 992px) and (max-width:1920px) {
+    .uplift {
+        font-size: 250px;
+    }
+}
