@@ -17,12 +17,21 @@ body {
 .hero-bg {
   height: 750px;
 }
+
+.nav-item .nav-link.active {
+  color: #0ef !important;
+}
+
 button {
   font-weight: 600;
 }
 
 p {
   font-size: 15px;
+}
+
+.font h3 {
+  font-family: $font-family2;
 }
 
 h1,
